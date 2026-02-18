@@ -39,3 +39,10 @@ HISTFILE=~/.zsh_history
 HISTSIZE=10000
 SAVEHIST=10000
 setopt appendhistory
+
+alias rebar="pkill waybar && hyprctl dispatch exec waybar"
+alias fixbar="hyprctl dispatch exec waybar"
+
+# To avoid unknown terminal type error
+alias ssh="kitty +kitten ssh"
+alias device="kitty +kitten ssh -p 22 dietpi@192.168.1.204"
