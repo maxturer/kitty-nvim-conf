@@ -1,5 +1,5 @@
 # Terminal Configuration 
-I have so many devices going on right now
+I have so many devices going on right now, so here's what their terminals have in common. I'm using `kitty` for the time being, but the fastfetch and zsh configs will run on most terminal emulators. You may experience slightly less clear pokemon sprites on your OS's default terminal. If it has one!
 
 ## Useful links
 [Kitty Terminal Docs](https://sw.kovidgoyal.net/kitty/)
@@ -40,7 +40,7 @@ pipx install pynvim
 ```
 
 ### next look st this
-Iosevka font is available via pacman install as `ttf-iosevka-term-slab` or nerd font `ttf-iosevkatermslab-nerd`. homebrew has `font-iosevka-slab` and `font-iosevka-term-slab-nerd-font`. if going with nerd font change font family in kitty.conf to 'IosevkaTermSlab NerdFont'. if you don't know what that is or care ignore that part completely
+Iosevka font is available via pacman install as `ttf-iosevka-term-slab` or nerd font `ttf-iosevkatermslab-nerd`. homebrew has `font-iosevka-slab` and `font-iosevka-term-slab-nerd-font`. if going with nerd font change font family in kitty.conf to 'IosevkaTermSlab NerdFont'. if you don't know what that is or care ignore that part completely BUT icons in the fastfetch config will be missing
 
 clipboard util if you are a linux user who needs it because you learned linux on a manual arch install and are stuck like this now, which is likely because this repo is just for me (wl-clipboard is for wayland but xclip is fine on x11): 
 ```
